@@ -1,4 +1,11 @@
 import os
+import boto3
+
+boto3_session = boto3.session.Session(
+    aws_access_key_id='AKIAJEZUY~VMJ7)?p>chU`A&8',
+    aws_secret_access_key='QuKdcj1VtOLKW~VMJ7)?p>chU`A&86jiz0tHQduujrdQuKdcj1VtOLKW6',
+    region_name='us-east-2'
+)
 
 class node:
 	def __init__(self, id, ele, root) -> None:
